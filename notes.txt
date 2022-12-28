@@ -1,0 +1,26 @@
+commands
+
+pip install virtualenv
+virtualenv env
+if error occurs run: following cmd in windows powershell
+Set-ExecutionPolicy unrestricted
+
+ .\env\Scripts\activate.ps1 
+
+ pip install flask
+
+
+ python .\app.py
+
+ pip install flask-sqlalchemy  #can make changes in database with python functions
+
+ for database
+ python
+>>> from app import db
+>>> db.create_all()
+
+use
+pip install flask-sqlalchemy==2.5.1
+for error resolution
+
+jinja2 - templating engine 
