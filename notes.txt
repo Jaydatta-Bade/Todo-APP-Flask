@@ -24,3 +24,9 @@ pip install flask-sqlalchemy==2.5.1
 for error resolution
 
 jinja2 - templating engine 
+
+
+for deployment on heroku
+pip install gunicorn
+
+pip freeze requirements.txt
